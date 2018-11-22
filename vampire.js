@@ -47,7 +47,19 @@ class Vampire {
   // For example:
   // * when comparing Ansel and Sarah, Ansel is the closest common anscestor.
   // * when comparing Ansel and Andrew, Ansel is the closest common anscestor.
-  closestCommonAncestor(vampire) {}
+  closestCommonAncestor(vampire) {
+    let ancestor1 = this;
+    let ancestor2 = vampire;
+    while (ancestor1 !== ancestor2) {
+      ancestor2 = ancestor2.creator;
+
+      if (ancestor2 === null) {
+        ancestor2 = vampire;
+        ancestor1 = ancestor1.creator;
+      }
+    }
+    return ancestor1;
+  }
 }
 
 module.exports = Vampire;
