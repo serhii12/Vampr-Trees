@@ -24,4 +24,4 @@ This app will be able to quickly determine a vampire's lineage relative to any o
   </li>
 </ol>
 
-![vamp chart](https://i.imgur.com/23dIvHw.png)
+!["Vamp Chart"](https://github.com/serhii12/Vampr-Trees/blob/master/chart.png)
