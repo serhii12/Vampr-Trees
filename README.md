@@ -23,3 +23,5 @@ This app will be able to quickly determine a vampire's lineage relative to any o
     Who is the closest common ancestor of two vampires?
   </li>
 </ol>
+
+![vamp chart](https://i.imgur.com/23dIvHw.png)
